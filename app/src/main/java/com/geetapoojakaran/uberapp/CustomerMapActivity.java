@@ -131,7 +131,7 @@ public class CustomerMapActivity extends FragmentActivity implements OnMapReadyC
                     drivermap.put("CustomerRideID",customerID);
                     driversref.updateChildren(drivermap);
                     GettingDriverLocation();
-                    CustomerRequestBtn.setText("Loking For a Driver Location!!!");
+                    CustomerRequestBtn.setText("Looking For a Driver Location!!!");
                 }
 
             }
